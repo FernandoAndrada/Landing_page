@@ -1,0 +1,151 @@
+*{
+
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #D0EBFF;
+    color:#1971C2;
+    align-items: center;
+    padding-left: 74px;
+    padding-right: 74px;
+    height: 72px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    
+}
+#button1{
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 16px;
+
+    border: 1px solid #1971C2;
+    border-radius: 40px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+#desc1{
+    height: 678px;
+    width: 1366;
+    background-color: #D0EBFF;  
+    
+    
+}
+
+#desc1t1{
+    position: relative;
+    width: 330px;
+    height: 21px;
+    left: 123px;
+    top: 10px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 0.08em;
+
+    color: #1971C2;
+}
+#desc1t2{
+    position: relative;
+    width: 605px;
+    height: 136px;
+    left: 123px;
+    top: 50px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 68px */
+
+
+    /* Secondary Colors/gray-headline */
+
+    color: #212529;
+}
+
+#disc1t3{
+    position: absolute;
+    width: 585px;
+    height: 54px;
+    left: 123px;
+    top: 349px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+
+    /* Secondary Colors/gray-paragraph */
+
+    color: #495057;
+
+}
+
+#button2{
+
+position: absolute;
+width: 209px;
+height: 50px;
+left: 123px;
+top: 435px;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 50px;
+gap: 10px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 18px;
+text-transform: uppercase;
+background: #1971C2;
+border-radius: 40px;
+/* Secondary Colors/White */
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+}
