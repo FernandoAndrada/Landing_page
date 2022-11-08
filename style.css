@@ -50,7 +50,7 @@
 
 
 #desc1{
-    height: 678px;
+    height: 550px;
     width: 1366;
     background-color: #D0EBFF;  
     
@@ -146,6 +146,67 @@ flex: none;
 order: 0;
 flex-grow: 0;
 
+}
+
+#nova1{
+
+    position: absolute;
+    width: 28.12rem;
+    height: 30.37rem;
+    left: 40.43rem;
+    right: 7.68rem;
+    top: 5.31rem;
+
+background: url(nova1.png);
+}
+
+.grid1{
+    position: sticky;
+    display: grid;
+    margin: -70px;
+    height: 0px;
+    width: 0px;
+    left: 200px;
+    right: auto;
+    grid-template-rows: 123px;
+    grid-template-columns: 300px 300px 300px;
+    z-index: auto; 
+}
+.item-grid1 {
+    background-color: #FFFFFF;
+}
 
 
+#tex_grid{
+    position: relative;
+    display: flex;
+    text-align: center;
+    gap: 300px;
+    left: 180px;
+    margin: 90px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #061800;
+
+}
+.tex_grid2{
+    position: relative;
+    display: flex;
+    text-align: center;
+    top:-100px;
+    gap: 140px;
+    left: 160px;
+    margin: 90px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    color:  #1971C2;
+}
+
+#serv{
+    position: absolute;
+    height: 650px;
+    width: 1366;
+    background-color: #F9F9F9;
 }
